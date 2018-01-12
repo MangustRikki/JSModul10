@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+.wrap {
+    height: 100vh;
+    background: url('../img/main.jpg') 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.holder {
+    padding-top: 200px;
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tasks {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(12, 48, 80);
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+    transition: .4s ease-out;
+}
+
+.tasks:hover {
+    border-bottom: 2px solid rgb(37, 101, 158);
+    
+}

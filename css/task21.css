@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrap {
+    height: 100vh;
+    background: url('../img/spring.jpg') 100% 100% no-repeat;
+    background-size: cover;
+    color: rgb(24, 185, 24);
+}
+
+.holder {
+    padding-top: 200px;
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.task__text {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+
+input,
+.getResult {
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+}
